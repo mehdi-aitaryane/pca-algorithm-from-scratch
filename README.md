@@ -1,4 +1,4 @@
-# PCA Algorithm Project
+# PCA Algorithm From Scratch
 
 ## Introduction
 
