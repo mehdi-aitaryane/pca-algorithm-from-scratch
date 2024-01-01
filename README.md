@@ -60,7 +60,7 @@ The PCA class is designed to perform Principal Component Analysis on input data.
 
 ### 2. Methods
 
-* __init__(self, n_components=2): Constructor method to initialize the PCA object.
+* ___init___(self, n_components=2): Constructor method to initialize the PCA object.
 * fit(self, X): Fit the PCA model to the input data.
 * transform(self, X): Transform the input data into the reduced feature space.
 * fit_transform(self, X): Fit the model and transform the input data simultaneously.
