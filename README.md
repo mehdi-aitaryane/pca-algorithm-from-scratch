@@ -9,7 +9,7 @@ This project implements a Principal Component Analysis (PCA) algorithm for dimen
 
 1. Covariance Matrix
 
-The first step in PCA involves computing the covariance matrix of the centered data. Given a data matrix \(X\) with dimensions \((m, n)\) where \(m\) is the number of samples and \(n\) is the number of features, the covariance matrix \(C\) is computed as follows:
+The first step in PCA involves computing the covariance matrix of the centered data. Given a data matrix \X\ with dimensions \((m, n)\) where \(m\) is the number of samples and \(n\) is the number of features, the covariance matrix \(C\) is computed as follows:
 
 \[ C = \frac{1}{m-1} \times (X - \bar{X})^T \times (X - \bar{X}) \]
 
