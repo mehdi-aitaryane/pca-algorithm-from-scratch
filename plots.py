@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 # Returns: None
 
 def scatter2D(title, xlabel, ylabel, X, y):
-    plt.figure(figsize=(20, 8))
+    plt.figure(figsize=(16, 8))
     plt.scatter(X[:, 0], X[:, 1], c = y)
     plt.title(title)
     plt.xlabel(xlabel)
